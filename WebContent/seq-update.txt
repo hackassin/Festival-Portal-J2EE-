@@ -1,0 +1,84 @@
+<!-- Row 1 (VisitorID) -->
+<table align = "left" border="2">
+<tr>
+<th>VisitorID</th><td>${visitor.getVisitorId()}</td>
+</tr>
+</table>
+<br><br>
+
+<!-- Row 2 (Username) -->
+<form action="UpdateVisitor.htm" >
+<table align = "left" border="2">
+<tr>
+<th>Username</th><td>${visitor.getUsername()}</td> <td>New Username <input type ="text" name="username"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>
+<br><br>
+
+<!-- Row 3 (Password) -->
+<form action="UpdateVisitor.htm" >
+<table align = "left" border="2">
+<tr>
+<th>Password</th><td>${visitor.getPassword()}</td> <td>New Password <input type ="password" name="password"> </td>
+<td>Confirm Password<input type ="password" value="password"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>
+<br><br>
+
+<!-- Row 4 (Firstname) -->
+<form action="UpdateVisitor.htm" >
+<table align ="left" border="2">
+<tr>
+<th>Firstname</th><td>${visitor.getFirstname()}</td> <td>New Firstname <input type ="text" name="firstname"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>
+<br><br>
+
+<!-- Row 5 (Lastname) -->
+<form action="UpdateVisitor.htm" >
+<table align = "left" border="2">
+<tr>
+<th>Lastname</th><td>${visitor.getLastname()}</td> <td>New Lastname <input type ="text" name="lastname"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>
+<br><br>
+
+<!-- Row 6 (Email) -->
+<form action="UpdateVisitor.htm" >
+<table align = "left" border="2">
+<tr>
+<th>Email</th><td>${visitor.getEmail()}</td> <td>New Email <input type ="text" name="email"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>
+<br><br>
+
+<!--  Row 7 (Phonenumber) -->
+<form action="UpdateVisitor.htm">
+<table align = "left" border="2">
+<tr>
+<th>Phone</th><td>${visitor.getPhonenumber()}</td> <td>New Phonenumber <input type ="text" name="phonenumber"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>
+<br><br>
+
+<!-- Row 8 (Address) -->
+<form action="UpdateVisitor.htm">
+<table align = "left" border="2">
+<tr>
+<th>Address</th><td>${visitor.getAddress()}</td> <td>New Address <input type ="text" name="address"> </td>
+<td> <input type = "submit" value = "Update"></td>
+</tr>
+</table>
+</form>

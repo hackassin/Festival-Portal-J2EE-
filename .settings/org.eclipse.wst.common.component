@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FestivalPortalMadau">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aspects-4.1.6.RELEASE/spring-aspects-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jdbc-4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-4.1.6.RELEASE/spring-core-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-4.1.6.RELEASE/spring-orm-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-4.1.6.RELEASE/spring-test-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-instrument-4.1.6.RELEASE/spring-instrument-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.5/commons-io-2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-4.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junit-4.9/junit-4.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-4.1.6.RELEASE/spring-context-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jms-4.1.6.RELEASE/spring-jms-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.7-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.7-bin/mysql-connector-java-5.1.7-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.2/commons-logging-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-websocket-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-websocket-4.1.6.RELEASE/spring-websocket-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-4.1.6.RELEASE/spring-beans-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-4.1.6.RELEASE/spring-web-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-4.1.6.RELEASE/spring-expression-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-portlet-4.1.6.RELEASE/spring-webmvc-portlet-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-4.1.6.RELEASE/spring-aop-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-messaging-4.1.6.RELEASE/spring-messaging-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-instrument-tomcat-4.1.6.RELEASE/spring-instrument-tomcat-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-oxm-4.1.6.RELEASE/spring-oxm-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-4.1.6.RELEASE/spring-tx-4.1.6.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/FestivalPortalMadau/build/classes"/>
+        <property name="context-root" value="FestivalPortalR2"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+/*body, html {
+    height: 100%;
+}*/
+body{
+    background-image: url("carnival_final.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

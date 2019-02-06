@@ -1,0 +1,77 @@
+table#Events{ font-family: "Segoe UI";
+    width: 100%;
+}
+
+h3{font-family: "Segoe UI";
+	color: white;
+	letter-spacing: 0.0625em;}
+	
+h2{font-family: "Segoe UI";
+	color:white;
+	letter-spacing: 0.0625em;}
+th{ padding: 15px;
+	border-bottom: 1px solid #ddd;
+    height: 20px;
+    letter-spacing: 0.0625em;
+}
+
+td{ 
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	height: 20px;
+	text-align: left;
+    vertical-align: bottom;
+  }
+
+th#buttons{ border-bottom: 0px solid #ddd;
+    height: 0px;
+  }  
+
+tr:hover {background-color: #FFA500;
+transition-duration: 0.4s;}
+
+th:hover{
+			background-color: #ffffff; 
+    		color: black;
+    		transition-duration: 0.4s;
+		}
+
+tr:nth-child(even) {background-color: #00FF7F;}
+
+.button {
+		    background-color: transparent;
+		    border: 2px solid #ffffff;
+		    padding: 12px 28px;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    font-family: "Segoe UI";
+		    letter-spacing: 0.0625em;
+		}
+
+.button:hover {
+			    background-color: #ffffff; 
+			    color: black;
+			    transition-duration: 0.4s;
+			    letter-spacing: 0.0625em;
+			  }
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blue;
+}			  
