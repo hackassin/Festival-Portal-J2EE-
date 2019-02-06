@@ -1,4 +1,4 @@
-package com.accenture.adf.utility;
+package com.hackassin.fsd.utility;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

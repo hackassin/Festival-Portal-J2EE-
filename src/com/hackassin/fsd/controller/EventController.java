@@ -1,4 +1,4 @@
-package com.accenture.adf.controller;
+package com.hackassin.fsd.controller;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -12,11 +12,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.accenture.adf.entity.Event;
-import com.accenture.adf.service.EventService;
-import com.accenture.adf.service.VisitorService;
-import com.accenture.adf.entity.Visitor;
-import com.accenture.adf.controller.VisitorController;
+import com.hackassin.fsd.controller.VisitorController;
+import com.hackassin.fsd.entity.Event;
+import com.hackassin.fsd.entity.Visitor;
+import com.hackassin.fsd.service.EventService;
+import com.hackassin.fsd.service.VisitorService;
 
 
 //import com.accenture.adf.service.VisitorService;

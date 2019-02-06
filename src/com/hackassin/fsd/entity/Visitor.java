@@ -1,4 +1,4 @@
-package com.accenture.adf.entity;
+package com.hackassin.fsd.entity;
 
 public class Visitor {
 	

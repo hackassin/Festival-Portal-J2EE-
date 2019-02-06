@@ -1,10 +1,11 @@
-package com.accenture.adf.service;
+package com.hackassin.fsd.service;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import com.accenture.adf.dao.EventDao;
-import com.accenture.adf.dao.VisitorDao;
-import com.accenture.adf.entity.Event;
-import com.accenture.adf.entity.Visitor;
+
+import com.hackassin.fsd.dao.EventDao;
+import com.hackassin.fsd.dao.VisitorDao;
+import com.hackassin.fsd.entity.Event;
+import com.hackassin.fsd.entity.Visitor;
 
 public class EventService {
 

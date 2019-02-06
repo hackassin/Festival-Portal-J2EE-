@@ -1,4 +1,4 @@
-package com.accenture.adf.dao;
+package com.hackassin.fsd.dao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -6,10 +6,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.PreparedStatement;
 
-import com.accenture.adf.entity.Event;
-import com.accenture.adf.entity.Visitor;
-import com.accenture.adf.utility.FERSDataConnection;
-
+import com.hackassin.fsd.entity.Event;
+import com.hackassin.fsd.entity.Visitor;
+import com.hackassin.fsd.utility.FERSDataConnection;
 
 import java.util.ArrayList;
 
